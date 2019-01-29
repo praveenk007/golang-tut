@@ -9,4 +9,6 @@ func main() {
 	fmt.Println(*a)
 	*a = 2
 	fmt.Println(x)
+	*a = *a * *a
+	fmt.Println(x)
 }
