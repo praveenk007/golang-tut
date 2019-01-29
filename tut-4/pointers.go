@@ -11,4 +11,7 @@ func main() {
 	fmt.Println(x)
 	*a = *a * *a
 	fmt.Println(x)
+
+	//& -> memory address
+	//* -> what's at that mem address
 }
